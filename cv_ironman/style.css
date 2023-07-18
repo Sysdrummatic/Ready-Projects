@@ -1,0 +1,202 @@
+body {
+    font-family: "Kanit", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    background: #e5e5e5;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 6px 6px 20px 0px #0000001a;
+}
+
+/* Main */
+
+main {
+    padding: 102px 88px 102px 88px;
+}
+
+.main-block {
+    width: 600px;
+}
+
+.job-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.main-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 40px;
+}
+
+.project-block {
+    width: 450px;
+    margin-bottom: 51px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.project-list {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
+    text-decoration: none;
+}
+
+.we-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 0;
+    margin-bottom: 16px;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.work-block {
+    background: white;
+    margin-bottom: 43px;
+}
+
+.date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+    margin-bottom: 8px;
+}
+
+.title_style1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.title_style2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fb6d3a;
+}
+
+.edu_style {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fb6d3a;
+    margin-bottom: 12px;
+}
+
+.edu_field {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 11px;
+}
+
+.line_style {
+    color: #000000;
+}
+
+/* Sidebar */
+
+aside {
+    width: 370px;
+    margin: 0px 0px 0px 40px;
+    background: #1e2939;
+    color: #ffffff;
+}
+
+.cv_img {
+    margin: 40px 0 0 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.side_desctiption {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.sidebar_list {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0;
+    padding-left: 0;
+    color: #ffffff;
+}
+
+ul.sidebar_list {
+    list-style: none;
+}
+
+ul.sidebar_list li::before {
+    content: "\2022";
+    color: #fb6d3a;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+.contacts_styles {
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+.tech_styles {
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+.soft_styles {
+    margin-top: 44px;
+    margin-left: 40px;
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:active {
+    color: brown;
+}
